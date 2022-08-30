@@ -35,11 +35,9 @@ function getTime() {
 
 // Gets the first message
 function firstBotMessage() {
-    let firstMessage = "Hey,I am JEC-BOT?";
+    let firstMessage = "Hey,I am JEC-BOT";
     let secondMessage = "how shall i help you";
-
-    let thirdmes = "for academics "
-    document.getElementById("botStarterMessage").innerHTML = '<div><p class="botText"><span>' + firstMessage + '</span></p><p class="botText"><span>' + secondMessage + '</span></p> <a href="www.google.com" ><button>Academics</button></a></div>';
+    document.getElementById("botStarterMessage").innerHTML = '<div><p class="botText"><span>' + firstMessage + '</span></p><p class="botText"><span>' + secondMessage + '</span></p> <a href="www.google.com"></a></div>';
 
     let time = getTime();
 

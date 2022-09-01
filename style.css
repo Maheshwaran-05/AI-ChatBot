@@ -1,0 +1,40 @@
+    @font-face {
+        font-family: "MemphisRiver";
+        src: url(fonts/MemphisRiver.ttf) format("truetype");
+    }
+    
+    @font-face {
+        font-family: "Roblox";
+        src: url(fonts/Roblox-Font-Regular.ttf) format("truetype");
+        font-weight: normal;
+    }
+    
+    @font-face {
+        font-family: "Roblox";
+        src: url(fonts/Roblox-Font-Bold.ttf) format("truetype");
+        font-weight: bold;
+    }
+    
+    body {
+        background-image: url("./static/Assets/college.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .head-name {
+        font-size: 10em;
+        max-width: 98%;
+        max-height: 1ch;
+        text-align: center;
+        font-family: "Roblox", "sans-serif";
+        color: rgb(58, 180, 237)
+    }
+    
+    .chatfont {
+        font-size: 6em;
+        max-width: 99%;
+        text-align: center;
+        font-family: "Roblox", "sans-serif";
+        color: rgb(58, 180, 237)
+    }

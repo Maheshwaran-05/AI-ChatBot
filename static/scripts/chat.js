@@ -36,14 +36,14 @@ function getTime() {
 // Gets the first message
 function firstBotMessage() {
     let firstMessage = "Hey,I am JEC-BOT";
-    let secondMessage = "how shall i help you";
-    document.getElementById("botStarterMessage").innerHTML = '<div><p class="botText"><span>' + firstMessage + '</span></p><p class="botText"><span>' + secondMessage + '</span></p> <a href="www.google.com"></a></div>';
+    document.getElementById("botStarterMessage").innerHTML = '<div><p class="botText"><span>' + firstMessage + '</span></p></div>';
 
     let time = getTime();
 
     $("#chat-timestamp").append(time);
     document.getElementById("userInput").scrollIntoView(false);
 }
+
 
 firstBotMessage();
 
@@ -61,7 +61,7 @@ function getResponse() {
     let userText = $("#textInput").val();
 
     if (userText == "") {
-        userText = "I love Code Palace!";
+        userText = "";
     }
 
     let userHtml = '<p class="userText"><span>' + userText + '</span></p>';

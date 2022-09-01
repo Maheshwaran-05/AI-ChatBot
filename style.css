@@ -28,7 +28,7 @@
         max-height: 1ch;
         text-align: center;
         font-family: "Roblox", "sans-serif";
-        color: rgb(58, 180, 237)
+        color: rgb(255, 255, 255)
     }
     
     .chatfont {
@@ -36,5 +36,5 @@
         max-width: 99%;
         text-align: center;
         font-family: "Roblox", "sans-serif";
-        color: rgb(58, 180, 237)
+        color: rgb(9, 18, 188)
     }
